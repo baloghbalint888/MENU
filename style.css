@@ -1,0 +1,77 @@
+*{
+    font-family: 'Italic';
+    scroll-behavior: smooth;
+    margin: 0 0;
+    padding: 0 0;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+body{
+   
+    background-image: url('kepek/hatter.png');
+    background-size: auto;
+    cursor: help;
+}
+.projekteim{
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    
+    left: 48.5%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+    cursor: help;
+    
+}
+.button {
+    border-radius: 4px;
+    background-color:rgba(0, 0, 0, 0.25);
+    border: none;
+    color:black;
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+    width: 200px;
+    transition: all 1s;
+    cursor: crosshair;
+    margin: 5px;
+    vertical-align: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .button span {
+    cursor: pointer;
+    display: ruby;
+    position: relative;
+    transition: 0.5s;
+  }
+  .button span:after {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 10px;
+    transition: 0.5s;
+  }
+  .button:hover span {
+    font-size: 150%;
+    font-stretch: expanded;
+    
+  }
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .button a {
+      text-decoration: none;
+  }
+li{
+    list-style: none;
+}
+ 
