@@ -1,38 +1,38 @@
 *{
-    font-family: 'Italic';
+    font-family: 'Arial';
     scroll-behavior: smooth;
     margin: 0 0;
     padding: 0 0;
-    color: rgb(255, 255, 255);
+    color: whitesmoke;
     box-sizing: border-box;
 }
 body{
    
-    background-image: url('kepek/hatter.png');
+    background-image: url('kepek/nagyhatter.jpeg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
     background-size: auto;
-    cursor: help;
+    color: black;
 }
 .projekteim{
 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    
     min-height: 100%;
     display: flex;
     align-items: center;
     position: absolute;
     
-    left: 48.5%;
+    left: 40%;
     margin-top: -50px;
     margin-left: -50px;
     width: 100px;
     height: 100px;
-    cursor: help;
+    font-family: sans-serif;
     
 }
 .button {
-    border-radius: 4px;
-    background-color:rgba(0, 0, 0, 0.25);
+    
     border: none;
     color:black;
     text-align: center;
@@ -45,7 +45,9 @@ body{
     vertical-align: 40px;
     display: flex;
     justify-content: center;
+    cursor: pointer;
   }
+ 
   .button span {
     cursor: pointer;
     display: ruby;
@@ -74,4 +76,34 @@ body{
 li{
     list-style: none;
 }
+ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  list-style-position: inside;
+}
+h1{
+  position: absolute;
+  margin-top: 50px;
+  left: 43.5%;
+  font-size: 40px;
+}
+.header-title {
+  animation-delay: 3s;
+}
+.animate-pop-in {
+  animation: pop-in 2s ease-out forwards;
+  opacity: 0;
+}
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem) scale(.8);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
  
